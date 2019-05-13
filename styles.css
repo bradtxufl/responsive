@@ -6,3 +6,46 @@ body {
 .jumbotron {
   background-color: white;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.rownav {
+  color: lightgrey;
+  width: 70vw;
+  height: 40px;
+}
+
+.selected {
+  background-color: green;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotronone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.jumbotrontwo {
+  display: flex;
+  justify-content: center;
+}
+.green {
+  color: green;
+}
+
+.jumbotronthree {
+}
