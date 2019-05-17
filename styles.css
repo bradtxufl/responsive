@@ -6,6 +6,7 @@ body {
 .middle {
   padding-top: 40px;
   background-color: white;
+  height: 60vh;
 }
 
 .logo {
@@ -64,4 +65,26 @@ body {
   align-items: center;
   padding-top: 20px;
   flex-direction: column;
+}
+.bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  color: lightgrey;
+}
+
+.bottmenu {
+  float:right;
+  padding-top: 20px;
+}
+
+.bott {
+  padding-top: 40px;
+}
+
+a {
+  color: lightgrey;
+  font-weight: bold;
 }
