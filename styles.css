@@ -3,7 +3,7 @@ body {
   background-color: #343a40;
 }
 
-.jumbotron {
+.middle {
   background-color: white;
 }
 
@@ -47,5 +47,18 @@ body {
   color: green;
 }
 
-.jumbotronthree {
+#jumbotop {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/*
+#buttons {
+  display: flex;
+  align-items: center;
+} */
+
+col {
+  display: flex;
+  justify-content: center;
 }
