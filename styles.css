@@ -4,20 +4,21 @@ body {
 }
 
 .middle {
+  padding-top: 40px;
   background-color: white;
 }
 
 .logo {
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+  margin: -20px;
+  margin-bottom: -40px;
 }
 
 .navbar-nav {
   display: flex;
   justify-content: center;
-  height: 40px;
+  height: 20px;
 }
 
 .rownav {
@@ -58,7 +59,9 @@ body {
   align-items: center;
 } */
 
-col {
+.col {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
 }
